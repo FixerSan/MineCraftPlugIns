@@ -1,0 +1,37 @@
+[22:40:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:40:59] [ServerMain/INFO]: Loaded 1174 recipes
+[22:40:59] [ServerMain/INFO]: Loaded 1271 advancements
+[22:40:59] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[22:40:59] [Server thread/INFO]: Loading properties
+[22:40:59] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[22:41:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:41:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:41:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[22:41:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[22:41:00] [Server thread/INFO]: Default game type: SURVIVAL
+[22:41:00] [Server thread/INFO]: Generating keypair
+[22:41:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:41:00] [Server thread/INFO]: Using default channel type
+[22:41:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:41:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:41:00] [Server thread/INFO]: [DustToDia] Loading server plugin DustToDia v1.0-SNAPSHOT
+[22:41:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:41:00] [Server thread/INFO]: Preparing level "world"
+[22:41:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:41:03] [Server thread/INFO]: Time elapsed: 1720 ms
+[22:41:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:41:03] [Server thread/INFO]: Time elapsed: 56 ms
+[22:41:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:41:03] [Server thread/INFO]: Time elapsed: 23 ms
+[22:41:03] [Server thread/INFO]: [DustToDia] Enabling DustToDia v1.0-SNAPSHOT
+[22:41:03] [Server thread/INFO]: Running delayed init tasks
+[22:41:03] [Server thread/INFO]: Done (3.460s)! For help, type "help"
+[22:41:03] [Server thread/INFO]: Timings Reset
+[22:56:54] [User Authenticator #0/INFO]: UUID of player FIXER_San is a945b7b7-265b-4cb5-8aea-cd10eb1f4cb9
+[22:56:54] [Server thread/INFO]: FIXER_San joined the game
+[22:56:54] [Server thread/INFO]: FIXER_San[/127.0.0.1:50615] logged in with entity id 191 at ([world]-7.5, 72.0, 40.5)
+[22:57:04] [Server thread/INFO]: FIXER_San has made the advancement [Diamonds!]
+[22:57:52] [Server thread/INFO]: FIXER_San lost connection: Disconnected
+[22:57:52] [Server thread/INFO]: FIXER_San left the game

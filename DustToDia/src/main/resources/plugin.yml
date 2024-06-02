@@ -1,0 +1,4 @@
+name: DustToDia
+version: '${version}'
+main: org.dusttodia.dusttodia.DustToDia
+api-version: '1.20'
