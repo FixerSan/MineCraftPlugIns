@@ -1,0 +1,4 @@
+name: DirtToDia
+version: '${version}'
+main: org.minecraftplugins.dirttodia.DirtToDia
+api-version: '1.20'

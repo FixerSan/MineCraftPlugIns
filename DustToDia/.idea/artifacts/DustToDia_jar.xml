@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="DustToDia:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/DustToDia_jar</output-path>
-    <root id="archive" name="DustToDia.jar" />
-  </artifact>
-</component>
