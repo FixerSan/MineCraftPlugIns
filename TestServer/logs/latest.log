@@ -1,64 +1,65 @@
-[19:49:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:49:44] [ServerMain/INFO]: Loaded 1174 recipes
-[19:49:44] [ServerMain/INFO]: Loaded 1271 advancements
-[19:49:44] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[19:49:44] [Server thread/INFO]: Loading properties
-[19:49:44] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[19:49:45] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:49:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:49:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:33:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:33:05] [ServerMain/INFO]: Loaded 1174 recipes
+[20:33:05] [ServerMain/INFO]: Loaded 1271 advancements
+[20:33:06] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:33:06] [Server thread/INFO]: Loading properties
+[20:33:06] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[20:33:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:33:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:33:06] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:49:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[19:49:45] [Server thread/INFO]: Default game type: SURVIVAL
-[19:49:45] [Server thread/INFO]: Generating keypair
-[19:49:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:49:45] [Server thread/INFO]: Using default channel type
-[19:49:45] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:49:45] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:49:45] [Server thread/INFO]: [DirtToDia] Loading server plugin DirtToDia v1.0-SNAPSHOT
-[19:49:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:49:45] [Server thread/INFO]: Preparing level "world"
-[19:49:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:49:46] [Server thread/INFO]: Time elapsed: 123 ms
-[19:49:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:49:47] [Server thread/INFO]: Time elapsed: 1017 ms
-[19:49:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:49:47] [Server thread/INFO]: Time elapsed: 14 ms
-[19:49:47] [Server thread/INFO]: [DirtToDia] Enabling DirtToDia v1.0-SNAPSHOT
-[19:49:47] [Server thread/INFO]: [DirtToDia] [FIXER_SAN]DirtToDia Loading Succeed
-[19:49:47] [Server thread/INFO]: Running delayed init tasks
-[19:49:47] [Server thread/INFO]: Done (2.460s)! For help, type "help"
-[19:49:47] [Server thread/INFO]: Timings Reset
-[19:51:53] [User Authenticator #0/INFO]: UUID of player FIXER_San is a945b7b7-265b-4cb5-8aea-cd10eb1f4cb9
-[19:51:53] [Server thread/INFO]: FIXER_San joined the game
-[19:51:53] [Server thread/INFO]: FIXER_San[/127.0.0.1:8931] logged in with entity id 171 at ([world]-7.213752266429769, 71.0, 41.30000001192093)
-[19:52:19] [Server thread/INFO]: Stopping the server
-[19:52:19] [Server thread/INFO]: Stopping server
-[19:52:19] [Server thread/INFO]: [DirtToDia] Disabling DirtToDia v1.0-SNAPSHOT
-[19:52:19] [Server thread/INFO]: Saving players
-[19:52:19] [Server thread/INFO]: FIXER_San lost connection: Server closed
-[19:52:20] [Server thread/INFO]: FIXER_San left the game
-[19:52:20] [Server thread/INFO]: Saving worlds
-[19:52:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:52:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:52:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:52:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:52:23] [Server thread/INFO]: [ChunkHolderManager] Saved 2256 block chunks, 625 entity chunks, 0 poi chunks in world 'world' in 3.58s
-[19:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:52:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:52:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:52:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:52:25] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.61s
-[19:52:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:52:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:52:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:52:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:52:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:52:25] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
-[19:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:52:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:52:26] [Server thread/INFO]: Flushing Chunk IO
-[19:52:26] [Server thread/INFO]: Closing Thread Pool
-[19:52:26] [Server thread/INFO]: Closing Server
+[20:33:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[20:33:06] [Server thread/INFO]: Default game type: SURVIVAL
+[20:33:06] [Server thread/INFO]: Generating keypair
+[20:33:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:33:06] [Server thread/INFO]: Using default channel type
+[20:33:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:33:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:33:06] [Server thread/INFO]: [DirtToDia] Loading server plugin DirtToDia v1.0-SNAPSHOT
+[20:33:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:33:06] [Server thread/INFO]: Preparing level "world"
+[20:33:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:33:08] [Server thread/INFO]: Time elapsed: 872 ms
+[20:33:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:33:08] [Server thread/INFO]: Time elapsed: 27 ms
+[20:33:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:33:08] [Server thread/INFO]: Time elapsed: 15 ms
+[20:33:08] [Server thread/INFO]: [DirtToDia] Enabling DirtToDia v1.0-SNAPSHOT
+[20:33:08] [Server thread/INFO]: [DirtToDia] ¡×a[FIXER_SAN]DirtToDia Loading Succeed
+[20:33:08] [Server thread/INFO]: Running delayed init tasks
+[20:33:08] [Server thread/INFO]: Done (2.224s)! For help, type "help"
+[20:33:08] [Server thread/INFO]: Timings Reset
+[20:33:17] [User Authenticator #0/INFO]: UUID of player FIXER_San is a945b7b7-265b-4cb5-8aea-cd10eb1f4cb9
+[20:33:17] [Server thread/INFO]: FIXER_San joined the game
+[20:33:17] [Server thread/INFO]: FIXER_San[/127.0.0.1:9836] logged in with entity id 273 at ([world]-4.328285779404465, 71.0, 54.409161122155574)
+[20:42:02] [Server thread/INFO]: FIXER_San was slain by Zombie
+[20:50:49] [Server thread/INFO]: Stopping the server
+[20:50:49] [Server thread/INFO]: Stopping server
+[20:50:49] [Server thread/INFO]: [DirtToDia] Disabling DirtToDia v1.0-SNAPSHOT
+[20:50:49] [Server thread/INFO]: Saving players
+[20:50:49] [Server thread/INFO]: FIXER_San lost connection: Server closed
+[20:50:49] [Server thread/INFO]: FIXER_San left the game
+[20:50:49] [Server thread/INFO]: Saving worlds
+[20:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:50:50] [Server thread/INFO]: [ChunkHolderManager] Saved 1154 block chunks, 207 entity chunks, 0 poi chunks in world 'world' in 0.58s
+[20:50:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:50:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[20:50:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:50:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:50:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[20:50:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:50:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:50:51] [Server thread/INFO]: Flushing Chunk IO
+[20:50:51] [Server thread/INFO]: Closing Thread Pool
+[20:50:51] [Server thread/INFO]: Closing Server

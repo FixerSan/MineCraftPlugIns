@@ -48,6 +48,6 @@ processResources {
     }
 }
 tasks.jar{
-    archiveFileName = '[Fixer_San]DirtToDia.jar'
+    archiveFileName = '[Fixer_San]DirtToDia V1.1.jar'
     destinationDirectory = file('D:\\UnityProject\\MineCraftPlugIns')
 }
